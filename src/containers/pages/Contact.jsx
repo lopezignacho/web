@@ -1,15 +1,14 @@
 import Layout from "hocs/layouts/Layout"
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
-import Header from "components/home/Header"
 
-function Home(){
+function Contact(){
     return(
         <Layout>
             <Navbar/>
-                <Header/>
+            Contact
             <Footer/>
         </Layout>
     )
 }
-export default Home
+export default Contact
